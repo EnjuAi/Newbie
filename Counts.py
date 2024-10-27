@@ -34,7 +34,7 @@ dataset_count = {item.strip(): matches.count(item.strip()) for item in dataset}
 # 결과 출력
 print("\n카운트 결과:")
 for key, value in count.items():
-    print(f"'{key.strip()}': {value}")
+    print(f"{key.strip()}: {value}")
 
 print("\n데이터셋 내 포함 횟수:")
 for key, value in dataset_count.items():
